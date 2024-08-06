@@ -1,0 +1,21 @@
+{
+    "name": "test-sdk",
+    "version": "0.0.1",
+    "description": "",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "tsc --build --clean && tsc --build && now-sdk build",
+        "deploy": "now-sdk deploy",
+        "fetch": "now-sdk fetch",
+        "dependencies": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/eslint-plugin-sdk-app-plugin": "2.0.0",
+        "@servicenow/glide": "26.0.1",
+        "@servicenow/sdk": "^2.0.0",
+        "eslint": "8.50.0"
+    },
+    "dependencies": {
+        "@servicenow/sdk-core": "^2.0.0"
+    }
+}

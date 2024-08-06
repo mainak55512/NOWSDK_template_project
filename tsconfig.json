@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+       "outDir": "src/server",
+       "rootDir": "src_ts/",
+       "noImplicitAny": true
+   },
+   "include": ["./src_ts/*.ts"]
+ }
